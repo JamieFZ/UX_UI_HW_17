@@ -82,10 +82,31 @@ button{
     left: 55%;
 }
 footer{
-    background-color: #373738;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     padding: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 .links{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+}
+a{
+    padding: 0 40px 0 40px;
+}
+.LI{
+    color: rgb(0,119,181);
+}
+.IG{
+    color: rgb(243, 72, 206);
+}
+.WC{
+    color: rgb(6, 179, 89);
+}
+.EM{
+    color: rgb(223,87,75);
+}
+a{
+    text-decoration: none;
 }
